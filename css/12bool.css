@@ -5,6 +5,7 @@
     padding: 0;
 }
 
+/* container  */
 .container {
     width: 100%;
     max-width: 1070px;
@@ -16,6 +17,7 @@
     max-width: 100%;
 }
 
+/* row & col  */
 .row {
     display: flex;
     flex-direction: row;
@@ -147,7 +149,9 @@
 
 
 
+/* MEDIA QUERY  */
 
+/* 576 */
 @media screen and (min-width: 576px) {
 
     .col-sm {
@@ -215,6 +219,7 @@
     }
 } 
 
+/* 768 */
 @media screen and (min-width: 768px) {
 
     .col-md {
@@ -281,7 +286,6 @@
         max-width: calc(100% / 12 * 12);
     }
 } 
-
 
 /* 992 */
 @media screen and (min-width: 992px) {
