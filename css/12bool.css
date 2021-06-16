@@ -504,3 +504,33 @@
         margin-left: calc(100% / 12 * 12);
     }
 } 
+
+
+/* JUSTIFY CONTENT  */
+
+.start {
+    justify-content: flex-start;
+}
+
+.center {
+    justify-content: center;
+}
+
+.end {
+    justify-content: flex-end;
+}
+
+
+/* ALIGN ITEMS  */
+
+.up {
+    align-items: flex-start;
+}
+
+.middle {
+    align-items: center;
+}
+
+.down {
+    align-items: flex-end;
+}
