@@ -9,9 +9,9 @@
     background-color: pink;
     border: 1px solid black;
     min-height: 150px;
-   
 }
 /* ricontrollare */
+
 
 .row-inside {
     margin: 3px 3px;
@@ -20,5 +20,6 @@
 .row-inside > div {
     background-color: fuchsia;
     border: 1px solid white;
+   
 }
 
