@@ -1,0 +1,12 @@
+
+.container {
+    border: 1px solid black;
+    max-width: 1200px;
+}
+
+
+[class*="col"] {
+    background-color: pink;
+    border: 1px solid black;
+    min-height: 150px;
+}
