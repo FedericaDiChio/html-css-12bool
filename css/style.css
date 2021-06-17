@@ -4,25 +4,19 @@
     max-width: 1200px;
 }
 
-
 [class*="col"] {
     background-color: pink;
     border: 1px solid black;
     min-height: 150px;
-    /* justify-content: center;
-    align-items: center;
-    display: flex; */
-}
-/* ricontrollare */
-
-
-.row-inside {
-    margin: 3px 3px;
+   
 }
 
-.row-inside > div {
+[class*="row"] [class*="row"] {
+    margin: 3px; 
+}
+
+[class*="col"] [class*="col"] {
     background-color: fuchsia;
     border: 1px solid white;
-   
 }
 

@@ -508,7 +508,7 @@
 
 /* JUSTIFY CONTENT  */
 
-.start {
+/* .start {
     justify-content: flex-start;
 }
 
@@ -518,12 +518,12 @@
 
 .end {
     justify-content: flex-end;
-}
+} */
 
 
 /* ALIGN ITEMS  */
 
-.up {
+/* .up {
     align-items: flex-start;
 }
 
@@ -533,4 +533,4 @@
 
 .down {
     align-items: flex-end;
-}
+} */
