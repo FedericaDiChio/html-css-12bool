@@ -8,12 +8,11 @@
     background-color: pink;
     border: 1px solid black;
     min-height: 150px;
-    /* line-height: 150px;
-    text-align: center; */
+   
 }
 
-[class*="row"] [class*="row"] {
-    margin: 3px; 
+[class*="col"] .row {
+    margin: 2px; 
 }
 
 [class*="col"] [class*="col"] {
